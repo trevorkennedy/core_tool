@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2D CORE Plot</title>
+  <link rel="shortcut icon" href="#" />
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+  <script src="https://d3js.org/d3.v5.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div id="d2_plot">
+      <div id="Plot_title">
+        <h2>Tripoint CORE Results Plot: Applications</h2>
+      </div>
+      <div id="svg-area"></div>
+    </div>
+    <div id="Sunburst">
+      <div id="Plot_title2">
+        <h2>Tripoint CORE Sunburst Costs / Users: Applications</h2>
+      </div>
+      <div id="main">
+        <div id="sequence"></div>
+        <div id="chart">
+          <div id="explanation" style="visibility: hidden;">
+            <span id="percentage"></span><br/>
+            of total users use <span id="name"></span>
+          </div>
+        </div>
+      </div>
+      <div id="sidebar">
+        <input type="checkbox" id="togglelegend"> Legend<br/>
+        <div id="legend" style="visibility: hidden;"></div>
+      </div>
+      <!-- <script type="text/javascript">
+        d3.select(self.frameElement).style("height", "700px");
+      </script> -->
+    </div>
+  </div>
+  <script type="text/javascript" src="static/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+[
+  {"name": "d3.js", "xScore": 0.23, "yScore": 0.51, "cost": 70000},
+  {"name": "Chartio", "xScore": 0.25, "yScore": 0.41, "cost": 55000},
+  {"name": "Looker", "xScore": 0.29, "yScore": 0.31, "cost": 1200000},
+  {"name": "Power BI", "xScore": 0.15, "yScore": 0.65, "cost": 550000},
+  {"name": "Tableau", "xScore": 0.37, "yScore": 0.77, "cost": 1500000},
+  {"name": "Highcharts", "xScore": 0.44, "yScore": 0.64, "cost": 10000},
+  {"name": "Plot.ly", "xScore": 0.49, "yScore": 0.68, "cost": 5000},
+  {"name": "ggplot2", "xScore": 0.51, "yScore": 0.45, "cost": 25000},
+  {"name": "Qlikview", "xScore": 0.57, "yScore": 0.32, "cost": 75000},
+  {"name": "IBM Watson", "xScore": 0.32, "yScore": 0.29, "cost": 300000},
+  {"name": "SAS VA", "xScore": 0.24, "yScore": 0.55, "cost": 500000},
+  {"name": "Alteryx", "xScore": 0.67, "yScore": 0.69, "cost": 750000}
+]
